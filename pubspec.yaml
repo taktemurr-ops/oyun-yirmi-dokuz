@@ -1,0 +1,24 @@
+name: oyun_yirmi_dokuz
+description: "Yirmi Dokuz – Kart Oyunları merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 60f7514e1ac97d22ca9b81b2ad7a9b3c10eeae68
+  kart_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/kart-motoru
+      ref: e5dcbb6e23954ef984d8d29aec9a623f6205b0e1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
